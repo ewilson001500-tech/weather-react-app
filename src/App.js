@@ -7,13 +7,18 @@ export default function App() {
 
       <footer>
         Coded by{" "}
-        <a href="https://github.com/ewilson001500-tech" target="_blank">
+        <a
+          href="https://github.com/ewilson001500-tech"
+          target="_blank"
+          rel="noreferrer"
+        >
           Erin Wilson
         </a>{" "}
         and is open-sourced on{" "}
         <a
           href="https://github.com/ewilson001500-tech/weather-react-app"
           target="_blank"
+          rel="noreferrer"
         >
           GitHub
         </a>
