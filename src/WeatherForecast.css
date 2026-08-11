@@ -1,0 +1,13 @@
+.WeatherForecast {
+    text-align: center;
+    color: #7288AE;
+}
+
+.WeatherForecast h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.WeatherForecast p {
+    padding-top: 5px;
+}
