@@ -53,13 +53,12 @@
 }
 
 .Weather .weather-icon img {
-  width: 112px;
+  width: 100px;
   padding-top: 14px;
 }
 
 .Weather .temperature {
   display: inline;
-  padding-left: 10px;
   vertical-align: middle;
   font-size: 65px;
   font-weight: 500;
