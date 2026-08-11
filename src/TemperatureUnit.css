@@ -1,0 +1,8 @@
+.TemperatureUnit a {
+  text-decoration: none;
+  color: #6e9ceb;
+}
+
+.TemperatureUnit a:hover {
+  text-decoration: underline;
+}
