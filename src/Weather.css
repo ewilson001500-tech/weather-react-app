@@ -1,10 +1,10 @@
 .Weather {
-  border: 1px solid #7288ae;
+  border: 1px solid #2d546e21;
   margin: 20px auto 0;
   padding: 20px;
   max-width: 600px;
   border-radius: 5px;
-  background-color: #9ea4a810 ;
+  background-color: #2d546e21 ;
 }
 
 .Weather .col-9 {
@@ -15,9 +15,9 @@
   width: 100%;
   padding: 7px;
   border-radius: 5px;
-  border: 1px solid #7288ae;
+  border: 1px solid #2d546e21;
   color: #7288ae;
-  background-color: #7288ae27;
+  background-color: #2d546e36;
 }
 .Weather .col-3 {
   padding-left: 6px;
@@ -29,10 +29,11 @@
   border-radius: 5px;
   border: none;
   background-color: #7288ae;
+  color: rgb(245, 244, 244);
 }
 
 .Weather h1 {
-  color: #7288ae;
+  color: #737db8;
   padding-top: 20px;
   margin: 0;
 }
@@ -52,7 +53,7 @@
 }
 
 .Weather .weather-icon img {
-  width: 115px;
+  width: 112px;
   padding-top: 14px;
 }
 
