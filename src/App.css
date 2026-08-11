@@ -1,0 +1,10 @@
+.App footer {
+    padding-top: 5px;
+  text-align: center;
+  color: #7288ae;
+}
+
+.App footer a {
+  color: #4756a7;
+  font-weight: 600;
+}

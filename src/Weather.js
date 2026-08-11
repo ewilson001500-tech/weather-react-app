@@ -7,10 +7,14 @@ export default function Weather() {
       <form>
         <div className="row">
           <div className="col-9">
-            <input type="search" placeholder="Enter a city..." />
+            <input
+              type="search"
+              placeholder="Enter a city..."
+              className="search-bar"
+            />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" />
+            <input type="submit" value="Search" className="submit-btn" />
           </div>
         </div>
       </form>
@@ -21,11 +25,14 @@ export default function Weather() {
       </ul>
       <div className="row">
         <div className="col-6">
-          <img
-            src="https://www.gstatic.com/weather/conditions/v1/svg/partly_cloudy_light.svg"
-            alt="partly sunny"
-          />
-          90°F
+          <div className="weather-icon">
+            <img
+              src="https://www.gstatic.com/weather/conditions/v1/svg/partly_cloudy_light.svg"
+              alt="partly sunny"
+            />
+          </div>
+          <div className="temperature">90</div>
+          <div className="unit">°F</div>
         </div>
         <div className="col-6">
           <ul>
